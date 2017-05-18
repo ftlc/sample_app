@@ -5,7 +5,12 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
+
+.*.un~
+.*.swp
+
 /.bundle
+/spring/*.pid
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
